@@ -43,9 +43,7 @@ color: #2e2f42;
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus,
-.button-main-section:hover,
-.button-main-section:focus {
+.contacts-link:focus {
     color: #404bbf;
 }
 .main-section {
@@ -69,6 +67,12 @@ color: #2e2f42;
         line-height: 1.5;
         letter-spacing: 0.04em;
 }
+
+.button-main-section:hover,
+.button-main-section:focus {
+    color: #fff;
+    background-color: #404bbf;
+}
 .highlights-section-title {
     font-weight: 500;
     font-size: 20px;
@@ -90,10 +94,11 @@ color: #2e2f42;
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 .team-section-box {
         background: #fff;
@@ -102,7 +107,7 @@ color: #2e2f42;
 font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -141,15 +146,6 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.02em;
         color: #434455;
 }
-
-
-
-
-
-
-
-
-
 .page-footer {
 background-color: #2e2f42;
 }
