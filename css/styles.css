@@ -43,25 +43,31 @@ color: #2e2f42;
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:focus,
+.button-main-section:hover,
+.button-main-section:focus {
     color: #404bbf;
 }
 .main-section {
     background-color: #2e2f42;
 }
-#title {
+.main-section-title {
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        text-transform: capitalize;
 }
 .button-main-section {
     color: #fff;
         background-color: #4d5ae5;
         cursor: pointer;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
 }
 .highlights-section-title {
     font-weight: 500;
